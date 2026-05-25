@@ -1,5 +1,12 @@
 # KHAOSS Stack v1.11
 
+Update notes: 
+
+- Hermes teammates render and are individually engageable in AionUi (swarm21-27)
+- Panel "Build Hermes Team" button (POST /team/seed -> seed_hermes_team.sh)
+- 4 source patches + idempotent reapply patcher (survives npm install / hermes update)
+- Handoff v7 + Beewid Opus findings
+
 A local, multi-agent cowork stack: an AionUi GUI front-end, Hermes-harnessed
 agent teams, a three-tier AI router, a control panel, and a Space Agent bridge.
 Built to let you spin up a **team of Hermes agents**, give them a goal, and go —
